@@ -50,10 +50,6 @@ const props = defineProps({
   typeobj: {
     type: Object,
     default: null
-  },
-  headersurl:{
-    type: Object,
-    default: null
   }
 })
 const operate_Btn_Arr = ref([]) as any
@@ -95,9 +91,7 @@ const rightParms = ref({
 }) as any
 const tableData = ref([] as FileItem[])
 onMounted(async () => {
-   // 存储配置项的值
-   window.sessionStorage.setItem('headersUrl',JSON.stringify(props.headersurl))
-   
+
   //  获取分组
   group_Obj.value = await groud_data({ extension: props.typeobj.name })
   rightParms.value.group_id = group_Obj.value.public[0].id

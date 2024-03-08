@@ -8,16 +8,11 @@ const typeObj = {
     remarkStr:
       '支持上传25MB以内的jpg、jpeg、png、gif、bmp格式图片，图像长度、宽度<3万像素和长宽像素相乘<2.5亿像素，一次最多上传10个文件'
   }
-const headersUrl = {
-  appId: 'RxrRZJWPRsd2Z2PM9u',
-  appSecret: 'wawOhkjQgaiTQjlkqhAcvOnNEhOmmmSSNfsUvo6bXPSpGDz9NXtxifhMAfY0Sp3P',
-  base_file_url:'https://file.lianqin.shop'
-}
 </script>
 
 <template>
    <div style="width: 1200px;display: flex;">
-      <FileOperate :headersurl="headersUrl" :typeobj="typeObj"  />
+      <FileOperate  :typeobj="typeObj"  />
    
    </div>
 </template>
