@@ -21,7 +21,7 @@
 - json.ts 文件是数据模拟
 - data.ts 为数据和接口方法隔离
 
-### 运行效果截图如下：
+### 运行效果截图如下，您觉得帮到了你，别忘记小星星：
 <img src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1426.jpg" />
 
 
@@ -134,7 +134,18 @@ const typeObj = {
 ### 如果有任何问题，可以联系我
 <div style="display:flex;flex-direction:row"> 
    <div>
-   <div>我的微信</div>
-   <img style="width:200px;height:200px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
+   <h3 style="margin-top:10px">我的微信</h3>
+   <img style="width:200px;height:500px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
+   </div>
+   <div>
+   <h3 style="margin-top:10px">我的whatsAPP</h3>
+   <img style="width:200px;height:500px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1433.jpg" />
+   </div>
+   <div>
+   <h3 style="margin-top:10px">我的飞机（Telegram）</h3>
+   <img style="width:200px;height:500px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1434.jpg" />
    </div>
 </div>
+
+### Facebook 联系方式
+- [Facebook](https://www.facebook.com/profile.php?id=100064104721907&mibextid=ZbWKwL) -别忘记点赞加关注
