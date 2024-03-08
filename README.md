@@ -11,15 +11,20 @@
 - less 
 - unocss
 
-###  已支持的平台：
-- Windows 7 及以上
-- Mac OS
-- Linux
+###  已支持功能清单：
+- 支持文件分组 删除 移动 批量删除 添加水印
+- 上传资源组件隔离，可拖动上传
+- 添加水印功能
 
 ### 注意该组件与业务绑定 需要注意以下参数：
 
 - json.ts 文件是数据模拟
 - data.ts 为数据和接口方法隔离
+
+### 运行效果截图如下：
+<img src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1426.jpg" />
+
+
 
 ### 使用步骤如下：
 ```shell
@@ -126,5 +131,10 @@ const typeObj = {
     remarkStr: '支持上传1G以内，一次最多上传10个文件'
   }
    ```
-### 如果有任何问题，可以联系，，我的微信
-<img src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
+### 如果有任何问题，可以联系我
+<div style="display:flex;flex-direction:row"> 
+   <div>
+   <div>我的微信</div>
+   <img style="width:200px;height:200px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
+   </div>
+</div>
