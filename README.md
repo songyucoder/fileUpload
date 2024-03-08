@@ -126,3 +126,5 @@ const typeObj = {
     remarkStr: '支持上传1G以内，一次最多上传10个文件'
   }
    ```
+### 如果有任何问题，可以联系，，我的微信
+<img src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
