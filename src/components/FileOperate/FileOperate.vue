@@ -773,7 +773,7 @@ defineExpose({ selectRowsDataExportEvent, tableData })
         </div>
       </div>
       <!-- 文件类型 -->
-      <div class="s_flex" style="flex-direction: column;margin-top: 8px;">
+      <div class="s_flex" style="flex-direction: column;margin-top: 8px;flex: 2;">
         <div v-if="is_row">
           <el-table 
             height="440"
@@ -917,10 +917,10 @@ defineExpose({ selectRowsDataExportEvent, tableData })
             </el-table-column>
           </el-table>
         </div>
-        <div v-else class="s_flex ml-2" style="flex-wrap: wrap;flex: 1;">
+        <div v-else class="s_flex" style="flex-wrap: wrap;flex: 1;margin-left: 5px;">
           <div
-            class="s_flex p-2"
-            style="width: 120px; height: 130px; flex-direction: column"
+            class="s_flex"
+            style="width: 120px; height: 130px; flex-direction: column;padding: 10px;"
             v-for="(item, index) in tableData"
             :key="index"
           >
@@ -962,10 +962,11 @@ defineExpose({ selectRowsDataExportEvent, tableData })
                     @click="item.is_checked = !item.is_checked"
                   />
                 </div>
-                <div class="ml-1 text-cute">{{ item.alias_name }}</div>
+                <div class="text-cute" style="margin-left: 5px;">{{ item.alias_name }}</div>
                 <div
                   v-if="props.typeobj.name == 'images'"
                   class="w-4 h-6 ml-1 s_flex flex-1"
+                 
                   @click="fileNameEidt(item)"
                   ><svg
                     style="color: #999"
@@ -1002,16 +1003,16 @@ defineExpose({ selectRowsDataExportEvent, tableData })
             </div>
           </div>
         </div>
-        <div class="s_row" style="flex:2">
-          <div class="s_flex  s_justify_between" style="width: 100%;margin-left: 10px;margin-top: 10px;">
-            <div class="s_row s_items_center">
+        <div class="s_row" style="flex:2;">
+          <div class="s_flex" style="justify-content: space-between;width: 100%;margin-left: 10px;margin-top: 10px;">
+            <div class="s_row" style="align-self: flex-end;">
               <div class="text-3">已选 {{ getSelectRow() }}/{{ total }}</div>
               <ElButton style="margin-left: 5px;" type="danger" @click="clickAllSelectOpearateEvent('dele')"
                 >批量删除</ElButton
               >
               <ElButton @click="clickAllSelectOpearateEvent('move')">批量移动</ElButton>
             </div>
-            <div>
+            <div style="display: flex;align-self: flex-end;">
               <el-pagination
                 v-model:current-page="currentPage"
                 v-model:page-size="pageSize"

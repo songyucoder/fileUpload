@@ -2,17 +2,6 @@
 
 项目基础架构：element-plus 上进行开发的文件管理插件
 
-# 组件名称: file-operate-ui
-[![NPM version](https://img.shields.io/npm/v/vue-file-upload.svg?style=flat-square)](https://www.npmjs.com/package/file-operate-ui?activeTab=versions)
-[![npm download](https://img.shields.io/npm/dm/vue-file-upload.svg?style=flat-square)](https://www.npmjs.com/package/file-operate-ui)
-
-> vue3 element-plus
-
-## 安装
-### npm
-```shell
-npm install --save file-operate-ui
-```
 所用技术栈：
 
 - element-plus 2.4.4+
@@ -29,8 +18,8 @@ npm install --save file-operate-ui
 
 ### 注意该组件与业务绑定 需要注意以下参数：
 
-- appId和appSecret 是针对不同的项目分配
-- base_file_url 为通用文件上传的域名
+- json.ts 文件是数据模拟
+- data.ts 为数据和接口方法隔离
 
 ### 使用步骤如下：
 ```shell
@@ -43,16 +32,11 @@ const typeObj = {
     remarkStr:
       '支持上传25MB以内的jpg、jpeg、png、gif、bmp格式图片，图像长度、宽度<3万像素和长宽像素相乘<2.5亿像素，一次最多上传10个文件'
   }
-  const headersUrl = {
-  appId: '',
-  appSecret: '',
-  base_url:''
-}
 </script>
 
 <template>
    <div style="width: 1200px;display: flex;">
-      <FileOperate  :headersurl="headersUrl"  :typeobj="typeObj"/>
+      <FileOperate    :typeobj="typeObj"/>
    </div>
 </template>
 ```
