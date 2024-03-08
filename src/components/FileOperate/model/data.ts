@@ -10,9 +10,14 @@ import {
   putFileNameApi
 } from '../api/index'
 
+// 模拟数据json 
+import { groud_dataJson, file_dataJson } from '../model/json'
+
+// 获取分组数据
 export const groud_data = async (data:any) => {
-  const res = await getFileGroupApi(data)
-  return res.data
+ // const res = await getFileGroupApi(data)
+ // return res.data
+ return groud_dataJson
 }
 // 修改分组名称数据
 export const updateGroupName = async (id: number | string, data: any) => {
@@ -47,8 +52,9 @@ export const deleGroupEvent = async (id: number | string, data: any) => {
 
 // 获取文件列表
 export const getrRightFileListEvent = async (data:any) => {
-  const res = (await getrRightFileListApi(data)) as any
-  return res.data
+  // const res = (await getrRightFileListApi(data)) as any
+  // return res.data
+  return file_dataJson
 }
 
 // 对文件上传-postFileApi
