@@ -135,15 +135,15 @@ const typeObj = {
 <div style="display:flex;flex-direction:row"> 
    <div>
    <h3 style="margin-top:10px">我的微信</h3>
-   <img style="width:200px;height:500px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
+   <img style="width:200px;height:400px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1428.jpg" />
    </div>
    <div>
    <h3 style="margin-top:10px">我的whatsAPP</h3>
-   <img style="width:200px;height:500px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1433.jpg" />
+   <img style="width:200px;height:400px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1433.jpg" />
    </div>
    <div>
    <h3 style="margin-top:10px">我的飞机（Telegram）</h3>
-   <img style="width:200px;height:500px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1434.jpg" />
+   <img style="width:200px;height:400px" src="https://github.com/songyucoder/songgyu2024/blob/main/WechatIMG1434.jpg" />
    </div>
 </div>
 
